@@ -5,8 +5,8 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const openSource = {
-  githubConvertedToken: process.env.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,
-  githubUserName: process.env.ngocminhta,
+  githubConvertedToken: process.env.GITHUB_TOKEN,
+  githubUserName: process.env.GITHUB_USERNAME,
 };
 
 const query_pr = {
@@ -103,7 +103,7 @@ const query_pinned_projects = {
   query: `
 	query { 
 	  user(login: "${openSource.githubUserName}") { 
-	    pinnedItems(first: 6, types: REPOSITORY) {
+	    pinnedItems(first: 8, types: REPOSITORY) {
 	      totalCount
 	      nodes{
 	        ... on Repository{

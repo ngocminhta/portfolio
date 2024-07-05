@@ -13,19 +13,19 @@ const seo = {
   og: {
     title: "Ngoc-Minh Ta Portfolio",
     type: "website",
-    url: "https://ngocminhta.github.io/",
+    url: "https://ngocminhta.id.vn",
   },
 };
 
 //Home Page
 const greeting = {
   title: "Ngoc-Minh Ta",
-  logo_name: "ngoc minh  ta",
-  nickname: "Robert",
+  logo_name: "ngocminhta",
+  nickname: "Data & AI Engineer",
   subTitle:
     "A passionate individual who always thrives to create impact through the sexiness of data.",
-  resumeLink:
-    "https://drive.google.com/file/d/1xRpQ4chvr351Ya37bxJulW3BFTmSXEj0/view?usp=share_link",
+  resumeLink: "/static/media/NgocMinhTa_AcademicCV_Jun2024.06cd84af2b41213ccf31.pdf",
+    //"https://drive.google.com/file/d/1xRpQ4chvr351Ya37bxJulW3BFTmSXEj0/view?usp=share_link",
   portfolio_repository: "https://github.com/ngocminhta/ngocminhta.github.io",
   githubProfile: "https://github.com/ngocminhta",
 };
@@ -90,9 +90,11 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Develop simple models for various machine learning and statistical use cases",
+        "⚡ Experience of working with Optimization projects",
+        "⚡ Create dynamic report for data analysis and forecasting",
+		"⚡ Have a little bit experience in big data storage and processing",
+		"⚡ Carrying on a project about Large Language Model",
       ],
       softwareSkills: [
         {
@@ -103,16 +105,8 @@ const skills = {
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
           skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          fontAwesomeClassname: "skill-icons:pytorch-dark",
           style: {
             backgroundColor: "transparent",
           },
@@ -120,6 +114,97 @@ const skills = {
         {
           skillName: "Python",
           fontAwesomeClassname: "ion-logo-python",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+		{
+          skillName: "Java",
+          fontAwesomeClassname: "skill-icons:java-light",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+		{
+          skillName: "Transact-SQL",
+          fontAwesomeClassname: "tabler:sql",
+          style: {
+            backgroundColor: "transparent",
+            color: "#D00000",
+          },
+        },
+		{
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            backgroundColor: "transparent",
+            //color: "#D00000",
+          },
+        },
+		{
+          skillName: "R",
+          fontAwesomeClassname: "mdi:language-r",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+		{
+          skillName: "PowerBI",
+          fontAwesomeClassname: "logos:microsoft-power-bi",
+          style: {
+            backgroundColor: "transparent",
+            color: "#D00000",
+          },
+        },
+		{
+          skillName: "Apache Spark",
+          fontAwesomeClassname: "devicon:apachespark-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#D00000",
+          },
+        },
+		{
+          skillName: "Scala",
+          fontAwesomeClassname: "skill-icons:scala-dark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#D00000",
+          },
+        },
+      ],
+    },
+	{
+      title: "Desktop Application Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building some simple application using Winform and WPF",
+		"⚡ Have experience with Java desktop application",
+/*         "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+        "⚡ Creating application backend in Node, Express & Flask", */
+      ],
+      softwareSkills: [
+        {
+          skillName: "C#",
+          fontAwesomeClassname: "nonicons:c-sharp-16",
+          style: {
+            color: "#E34F26",
+          },
+        },
+		{
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            backgroundColor: "transparent",
+            //color: "#D00000",
+          },
+        },
+		{
+          skillName: "Java",
+          fontAwesomeClassname: "skill-icons:java-light",
           style: {
             backgroundColor: "transparent",
             color: "#3776AB",
@@ -322,7 +407,7 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
+/*     {
       siteName: "LeetCode",
       iconifyClassname: "simple-icons:leetcode",
       style: {
@@ -369,7 +454,7 @@ const competitiveSites = {
         color: "#20BEFF",
       },
       profileLink: "https://www.kaggle.com/laymanbrother",
-    },
+    }, */
   ],
 };
 
@@ -377,30 +462,18 @@ const degrees = {
   degrees: [
     {
       title: "Hanoi University of Science and Technology",
-      subtitle: "BSc. in Data Science and Artificial Intelligence",
+      subtitle: "BSc, Data Science and Artificial Intelligence",
       logo_path: "bk_logo.jpg",
       alt_name: "HUST",
       duration: "2021 - Now",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-        "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+        "⚡ I have studied basic subjects like Data Science, Algorithms, AI, Machine Learning, OOP, etc., and I have done some mini-projects in these subjects, which always receive the grade greater or equal 9/10. I'm also a research student at the AI center.",
+        "⚡ Apart from this, I have done courses on Data Science, Cloud Computing and Multitasking Optimization.",
+        "⚡ I was selected for Student with Five Good Criteria which is given to top 1% of students in my university.",
+		"⚡ I also got the certificate of merit from the university's president for my academic records and contributions to student's developments.",
       ],
       website_link: "http://hust.edu.vn/en/",
     },
-/*     {
-      title: "Indiana University Bloomington",
-      subtitle: "M.S. in Computer Science",
-      logo_path: "iu_logo.png",
-      alt_name: "Indiana University Bloomington",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
-      ],
-      website_link: "https://www.indiana.edu/",
-    }, */
   ],
 };
 
@@ -495,24 +568,15 @@ const certifications = {
         "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
       alt_name: "GCP",
       color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    }, */
+    },*/
 	{
-      title: "Professional Data Analytics",
+      title: "Google Professional Data Analytics",
       subtitle: "- Google",
       logo_path: "google_logo.png",
       certificate_link:
         "https://www.coursera.org/account/accomplishments/professional-cert/5G9L24X5GMC7",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
+      alt_name: "Google DA",
+      color_code: "#FFFFFF",
     },
     {
       title: "Big Data & ML on GCP",
@@ -521,8 +585,44 @@ const certifications = {
       certificate_link:
         "https://www.cloudskillsboost.google/public_profiles/906c35e8-9a36-4128-8992-31233911b3e1",
       alt_name: "GCP",
-      color_code: "#4285F499",
+      color_code: "#FFFFFF",
     },
+	{
+      title: "Data Science in Business & Economics",
+      subtitle: "- Foreign Trade University",
+      logo_path: "ftu.png",
+      certificate_link:
+        "",
+      alt_name: "FTU",
+      color_code: "#FFFFFF",
+    },
+	{
+      title: "IBM Data Engineering",
+      subtitle: "- IBM",
+      logo_path: "ibm.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/professional-cert/D8WYJ5PJNBSV",
+      alt_name: "IBM DE",
+      color_code: "#FFFFFF",
+    },
+	{
+      title: "Strategic Technology Management",
+      subtitle: "- University of Illinos at Urbana–Champaign",
+      logo_path: "uiuc.png",
+      certificate_link:	
+		"https://www.coursera.org/account/accomplishments/specialization/C9DNF3KGGTFU",
+      alt_name: "UIUC STM",
+      color_code: "#FFFFFF",
+    },
+	{
+      title: "IBM Data Science",
+      subtitle: "- IBM",
+      logo_path: "ibm.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/professional-cert/5G9L24X5GMC7",
+      alt_name: "IBM DS",
+      color_code: "#FFFFFF",
+    }
   ],
 };
 
@@ -531,30 +631,76 @@ const experience = {
   title: "Experience",
   subtitle: "Work, Internship and Volunteership",
   description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+    "I have worked with many projects as ML Developer, and Project manager. I have also worked several months with companies mostly as Data Analyst and now as Data Engineer and Scientist. \
+	I love organizing events and that is why I am also involved with many open-source communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Works",
       experiences: [
+		{
+          title: "Data & AI Engineer",
+          company: "Viettel Group",
+          company_url: "https://viettel.com.vn/",
+          logo_path: "viettel.png",
+          duration: "July 2023 - now",
+          location: "Hanoi, Vietnam",
+          description: "I passed the talented internship program with the second best final project of IT Division, Viettel HQ. My current project is building LLM Assistant for Data Lakehouse.",
+          color: "#000000",
+        },
+		{
+          title: "Lecturer and Teaching Assistant",
+          company: "Datapot JSC.",
+          company_url: "https://datapot.vn/",
+          logo_path: "datapot.png",
+          duration: "July 2023 - now",
+          location: "Hanoi, Vietnam",
+          description: "I teach and assist courses about Python and SQL for Data Scientist and Data Analyst.",
+          color: "#000000",
+        },
+		{
+          title: "Research Student",
+          company: "The International Reseach Center for AI - BK.AI",
+          company_url: "https://bkai.ai/",
+          logo_path: "bkai.png",
+          duration: "Feb 2022 - Now",
+          location: "Hanoi, Vietnam",
+          description:
+            "Currently, I am a member of Foundation Model Lab focusing developing Vietnamese large language model.\
+			Prior to that, I was a member of Modeling, Simulation and Optimization Lab, which\
+			focus on developing multitasking algorithms to solve problems in computer science and operation research.",
+          color: "#0879bf",
+        },
         {
           title: "Data Analyst",
           company: "Mathpresso Inc,",
           company_url: "https://mathpresso.com/",
           logo_path: "qanda.png",
-          duration: "May 2022 - Dec 2022",
+          duration: "May 2022 - December 2022",
           location: "Hanoi, Vietnam (Hybrid)",
           description:
             "Data cleaning, and processing customers' data and input data for QANDA app. \
 			Visualize and report about the effectiveness of marketing campaigns.\
 			Feedback and recommend some updates of the websites, apps.",
-          color: "#0879bf",
+          color: "#181717",
         },
       ],
     },
     {
       title: "Internships",
       experiences: [
+		{
+          title: "Data & AI Engineer Intern",
+          company: "Viettel Inc.",
+          company_url: "https://viettel.com.vn/",
+          logo_path: "viettel.png",
+          duration: "April 2023 - July 2023",
+          location: "Hanoi, Vietnam",
+          description: "I joined the Viettel Digital Talent program in the track of Data Engineering. \
+		  I'm the only sophomore to be selected in this track. \
+		  The final project for this program is researching about Data Mesh Architecture.",
+          color: "#000000",
+        },
         /* {
           title: "Machine Learning Intern",
           company: "TikTok Inc.",
@@ -594,6 +740,32 @@ const experience = {
     {
       title: "Volunteerships",
       experiences: [
+		{
+          title: "Google Developer Students Club Leader",
+          company: "GDSC-HUST",
+          company_url:
+            "https://gdsc.vn",
+          logo_path: "gdsc.png",
+          duration: "July 2021 - Now",
+          location: "Hanoi, Vietnam",
+          description:
+            "We have well established developer club in college which is directly associated with Google Developers.\
+			We have developed many interdisciplinary projects under the membership of this club.\
+			We have organized workshops and activities on Machine Learning, Computer Vision, Natural Language Processing, Flutter and React JS.",
+          color: "#0C9D58",
+        },
+		{
+          title: "Member of the Standing Commitee; Head of Study, Scientific Research and Orientation",
+          company: "Ho Chi Minh's Youth Union",
+          company_url: "https://soict.hust.edu.vn/",
+          logo_path: "logoDoan.png",
+          duration: "May 2022 - Now",
+          location: "Hanoi, Vietnam",
+          description:
+            "We create campaigns and programs for student to help them get better study skills and engage them more in scientific research.\
+			Also, we connect with companies and corporations to hold some workshops, events that provide them knowledge about practical skills and the requirements of companies.",
+          color: "#D83B01",
+        },
         /* {
           title: "Google Explore ML Facilitator",
           company: "Google",
@@ -719,21 +891,21 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "ngocminhta.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, Development and Data Analytics and Engineering.",
   },
   blogSection: {
     title: "Blogs",
-    subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "",
+    subtitle: "Minh codes his life - A place for me to share everything about my life and my work.",
+      //"For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
+    link: "https://minhcodeshislife.vercel.app/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
     subtitle:
-      "B1-703, BK.AI Center / 2F, BK Alumni House, Hanoi University of Science and Technology, 1 Dai Co Viet, Hai Ba Trung, Hanoi",
+      "B1-1002, BK.AI Center, Hanoi University of Science and Technology, 1 Dai Co Viet, Hai Ba Trung, Hanoi.",
     avatar_image_path: "address_image.svg",
     location_map_link: "https://goo.gl/maps/ttGu2AtPJnqNd3fNA",
   },

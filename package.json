@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "Ngoc-Minh Ta Portfolio",
-  "homepage": "https://ngocminhta.github.io/",
+  "homepage": "https://ngocminhta.id.vn",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",

@@ -84,6 +84,17 @@ class Header extends Component {
                   Projects
                 </NavLink>
               </li>
+			  <li>
+                <a
+				  href="https://blog.ngocminhta.id.vn/"
+				  style={{ color: theme.text }}
+				  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
+				  onMouseOut={(event) => onMouseOut(event)}
+				>
+				  Blog
+				</a>
+
+              </li>
               <li>
                 <NavLink
                   to="/contact"

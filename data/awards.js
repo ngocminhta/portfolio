@@ -48,11 +48,26 @@ export const awardData = [
     id: 4,
     class: "isotop-item logo",
     bgClass: "bg-prink",
+    imgSrc: "/assets/img/awards/scic.png",
+    subtitle: "School of ICT, Hanoi University of Science and Technology",
+    title: "First Prize of Student Creative Idea Challenge",
+    target: "#portfolio-1",
+    category: ["Prizes"],
+    years: ["2024"],
+    client: "Dean of School of ICT, Hanoi University of Science and Technology",
+    desc: [
+      ``
+    ],
+  },
+  {
+    id: 5,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
     imgSrc: "/assets/img/awards/dstc.png",
     subtitle: "Foreign Trade University",
     title: "Champion of Data Science Talent Competition",
     target: "#portfolio-1",
-    category: ["Awards"],
+    category: ["Prizes"],
     years: ["2022"],
     client: "President of Foreign Trade University",
     desc: [

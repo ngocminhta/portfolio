@@ -44,6 +44,21 @@ export const awardData = [
       `University's prize for Student with Five Good Merits. (top 1% students)`
     ],
   },
+  {
+    id: 4,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
+    imgSrc: "/assets/img/awards/dstc.png",
+    subtitle: "Foreign Trade University",
+    title: "Champion of Data Science Talent Competition",
+    target: "#portfolio-1",
+    category: ["Awards"],
+    years: ["2022"],
+    client: "President of Foreign Trade University",
+    desc: [
+      ``
+    ],
+  },
 ];
 
 export const filterButtons = [

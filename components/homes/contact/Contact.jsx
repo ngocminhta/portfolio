@@ -10,7 +10,7 @@ export default function Contact() {
       <div className="bostami-page-content-wrap">
         <div className="section-wrapper pl-60 pr-60 pt-60">
           <div className="bostami-page-title-wrap mb-15">
-            <h2 className="page-title">contact</h2>
+            <h2 className="page-title">Contact me</h2>
           </div>
         </div>
 

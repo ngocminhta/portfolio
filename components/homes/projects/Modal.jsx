@@ -58,7 +58,7 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
                   <div className="col-md-6">
                     <h3 className="portfolio-modal-table-text">
                       <i className="fa-regular fa-user "></i>
-                      Type : <span>{modalContent?.client}</span>
+                      Affiliation : <span>{modalContent?.client}</span>
                     </h3>
                   </div>
                   <div className="col-md-6">

@@ -6,7 +6,7 @@ import Volunteers from "@/components/homes/volunteers/Volunteer";
 
 import React from "react";
 export const metadata = {
-  title: "Minh N. Ta || Awards",
+  title: "Minh N. Ta || Volunteering",
   description:
     "",
 };

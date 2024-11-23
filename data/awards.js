@@ -3,198 +3,45 @@ export const awardData = [
     id: 1,
     class: "isotop-item logo",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/work-img-1.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Chul urina",
+    imgSrc: "/assets/img/awards/gkgd.jpg",
+    subtitle: "University's President",
+    title: "Excellent academic performance and Remarkable contributions to students' activities",
     target: "#portfolio-1",
-    category: ["Logo"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
+    category: ["Awards"],
+    years: ["2022", "2023", "2024"],
+    client: "President of Hanoi University of Science and Technology",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Certificates of recognition for excellent academic performance and remarkable contributions to students' activities.`
     ],
   },
   {
     id: 2,
-    class: "isotop-item design mockup",
-    bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-2.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Aura Dione",
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
+    imgSrc: "/assets/img/awards/ta.png",
+    subtitle: "School's Dean",
+    title: "Outstanding performance while serving as a teaching assistant",
     target: "#portfolio-1",
-    category: ["Mockup", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
+    category: ["Awards"],
+    years: ["2024"],
+    client: "Dean of School of ICT, Hanoi University of Science and Technology",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `Certificates of Recognition from the dean for outstanding performance while serving as a teaching assistant.`
     ],
   },
   {
     id: 3,
-    class: "isotop-item logo mockup",
-    bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-3.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "T-Shirt Design",
-    target: "#portfolio-1",
-    category: ["Mockup", "Logo"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
-    desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
-    ],
-  },
-  {
-    id: 4,
-    class: "isotop-item mockup",
+    class: "isotop-item logo",
     bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/work-img-4.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Packaging Box",
+    imgSrc: "/assets/img/awards/sv5t.png",
+    subtitle: "University's Student Association",
+    title: "Student With Five Good Merits",
     target: "#portfolio-1",
-    category: ["Mockup"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
+    category: ["Awards"],
+    years: ["2022"],
+    client: "Student's Association, Hanoi University of Science and Technology",
     desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
-    ],
-  },
-  {
-    id: 5,
-    class: "isotop-item design logo",
-    bgClass: "bg-prink",
-    imgSrc: "/assets/img/work/work-img-5.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Modern Bag Design",
-    target: "#portfolio-1",
-    category: ["Logo", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
-    desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
-    ],
-  },
-  {
-    id: 6,
-    class: "isotop-item mockup design",
-    bgClass: "bg-catkrill",
-    imgSrc: "/assets/img/work/work-img-6.png",
-    subtitle: "Travel Landing , UX/UI",
-    title: "Chul urina",
-    target: "#portfolio-1",
-    category: ["Mockup", "Graphic Design"],
-    project: "website",
-    languages: ["Photoshop", "Figma"],
-    client: "Envato",
-    previewLink: "#",
-    previewName: "www.envato.com",
-    desc: [
-      `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum conseqr quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, enim corporis omnis doloremque soluta inventore
-      dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      `University's prize for Student with Five Good Merits. (top 1% students)`
     ],
   },
 ];
@@ -207,14 +54,14 @@ export const filterButtons = [
   },
   {
     id: 2,
-    text: "Mockup",
+    text: "Prizes",
   },
   {
     id: 3,
-    text: "Graphic Design",
+    text: "Awards",
   },
-  {
-    id: 4,
-    text: "Logo",
-  },
+  // {
+  //   id: 4,
+  //   text: "Logo",
+  // },
 ];

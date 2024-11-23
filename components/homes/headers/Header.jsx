@@ -65,8 +65,8 @@ export default function Header() {
                 <Link className="site-logo" href="/">
                   <Image
                     width={153}
-                    height={32}
-                    src="/assets/img/logo/logo-2.png"
+                    height={30}
+                    src="/assets/img/logo/logo.png"
                     alt="logo"
                   />
                 </Link>

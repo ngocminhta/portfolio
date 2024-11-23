@@ -2,21 +2,21 @@
 
 import { motion } from "framer-motion";
 import { AnimatePresence } from "framer-motion";
-import { filterButtons, awardData } from "@/data/awards";
+import { filterButtons, publicationData } from "@/data/publications";
 import React, { useState, useEffect } from "react";
 import Modal from "./Modal";
 import Image from "next/image";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
-export default function Awards() {
+export default function Publications() {
   const [filteredItem, setFilteredItem] = useState([]);
   const [activeTab, setActiveTab] = useState("All");
   const [modalContent, setModalContent] = useState();
   const [showModal, setShowModal] = useState(false);
   useEffect(() => {
     if (activeTab == "All") {
-      setFilteredItem(awardData);
+      setFilteredItem(publicationData);
     } else {
-      const filtered = awardData.filter((elm) =>
+      const filtered = publicationData.filter((elm) =>
         elm.category.includes(activeTab)
       );
       setFilteredItem(filtered);
@@ -29,7 +29,7 @@ export default function Awards() {
         <div className="bostami-page-content-wrap">
           <div className="section-wrapper pl-60 pr-60 pt-60">
             <div className="bostami-page-title-wrap mb-15">
-              <h2 className="page-title">Awards and Honors</h2>
+              <h2 className="page-title">Publications</h2>
             </div>
           </div>
 

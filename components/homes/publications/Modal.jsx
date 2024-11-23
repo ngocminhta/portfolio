@@ -58,7 +58,7 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
                   {/* <div className="col-md-6"> */}
                     <h3 className="portfolio-modal-table-text">
                       <i className="fa-regular fa-user "></i>
-                      Issiuer : <span>{modalContent?.client}</span>
+                      Volume : <span>{modalContent?.client}</span>
                     </h3>
                   {/* </div> */}
                   {/* <div className="col-md-6"> */}
@@ -68,7 +68,7 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
                       <span>{modalContent?.years.join(", ")}</span>
                     </h3>
                   {/* </div> */}
-                  {/* <div className="col-md-6">
+                  {/* <div className="col-md-6"> */}
                     <h3 className="portfolio-modal-table-text">
                       <i className="fa-solid fa-arrow-up-right-from-square"></i>
                       Preview :{" "}
@@ -76,7 +76,7 @@ export default function Modal({ setShowModal, showModal, modalContent }) {
                         {modalContent?.previewName}
                       </a>
                     </h3>
-                  </div> */}
+                  {/* </div> */}
                 </div>
               </div>
 

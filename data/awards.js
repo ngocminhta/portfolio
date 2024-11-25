@@ -48,6 +48,21 @@ export const awardData = [
     id: 4,
     class: "isotop-item logo",
     bgClass: "bg-prink",
+    imgSrc: "/assets/img/awards/sv5t.png",
+    subtitle: "Dean of School of ICT, HUST",
+    title: "Outstanding performance while serving as a Teaching Assistant",
+    target: "#portfolio-1",
+    category: ["Awards"],
+    years: ["2024"],
+    client: "Dean of School of ICT, Hanoi University of Science and Technology",
+    desc: [
+      `Certificate of Achievements for Outstanding performance in the position of Teaching Assistant during the Spring Semester 2024.`
+    ],
+  },
+  {
+    id: 5,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
     imgSrc: "/assets/img/awards/scic.png",
     subtitle: "School of ICT, Hanoi University of Science and Technology",
     title: "First Prize of Student Creative Idea Challenge",
@@ -60,7 +75,7 @@ export const awardData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     class: "isotop-item logo",
     bgClass: "bg-prink",
     imgSrc: "/assets/img/awards/dstc.png",
@@ -70,6 +85,36 @@ export const awardData = [
     category: ["Prizes"],
     years: ["2022"],
     client: "President of Foreign Trade University",
+    desc: [
+      ``
+    ],
+  },
+  {
+    id: 7,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
+    imgSrc: "/assets/img/awards/dstc.png",
+    subtitle: "IBM",
+    title: "IBM Data Engineering Professional Certificates",
+    target: "#portfolio-1",
+    category: ["Certifications"],
+    years: ["2023"],
+    client: "Coursera on behalf of IBM",
+    desc: [
+      ``
+    ],
+  },
+  {
+    id: 8,
+    class: "isotop-item logo",
+    bgClass: "bg-prink",
+    imgSrc: "/assets/img/awards/dstc.png",
+    subtitle: "Google",
+    title: "Google Data Analytics Professional Certificates",
+    target: "#portfolio-1",
+    category: ["Certifications"],
+    years: ["2023"],
+    client: "Coursera on behalf of Google",
     desc: [
       ``
     ],
@@ -90,8 +135,8 @@ export const filterButtons = [
     id: 3,
     text: "Awards",
   },
-  // {
-  //   id: 4,
-  //   text: "Logo",
-  // },
+  {
+    id: 4,
+    text: "Certifications",
+  },
 ];

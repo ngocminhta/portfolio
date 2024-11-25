@@ -17,10 +17,10 @@ export default function ContactForm() {
       e.preventDefault();
       emailjs
         .sendForm(
-          "service_n4mkhz9",
-          "template_ugoztxr",
+          "service_a9o0vqq",
+          "template_vpw6lai",
           form.current,
-          "user_vYmDSd9PwIuRXUQEDjYwN"
+          "VO-27jZZvTdSLIsXZ"
         )
         .then(
           (result) => {
@@ -34,7 +34,7 @@ export default function ContactForm() {
               draggable: true,
               progress: undefined,
             });
-            document.getElementById("myFormOne").reset();
+            // document.getElementById("myFormOne").reset();
           },
           (error) => {
             toast.error("Ops Message not Sent!", {
@@ -54,7 +54,7 @@ export default function ContactForm() {
     <form className="contact-form"  ref={form}
               onSubmit={sendEmail}>
                     <div className="form-input-item mb-60">
-                <label style={activeInputBoxes.includes('name')? {color:'#FE7878'}:{}} className="input-lebel name">name *</label>
+                <label style={activeInputBoxes.includes('name')? {color:'#FE7878'}:{}} className="input-lebel name">Your Name *</label>
                 <input
                   name="name"
                   className={`input-box name ${activeInputBoxes.includes('name') && 'height'} `}
